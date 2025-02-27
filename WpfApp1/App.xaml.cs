@@ -11,7 +11,7 @@ namespace WpfApp1
     /// </summary>
     public partial class App : Application
     {
-        private const string MutexName = "IODATA_DSIG";
+        private const string MutexName = "WPF_APP_1";
         private const int SW_SHOWNORMAL = 1;
 
         private readonly Mutex _mutex = new(false, MutexName);
