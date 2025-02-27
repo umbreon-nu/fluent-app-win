@@ -4,6 +4,8 @@ VisualStudioVersion = 17.14.35806.103
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1.csproj", "{E7468D9E-5DC3-4BFA-972F-613A3B0D081D}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WpfApp1Installer", "..\WpfApp1Installer\WpfApp1Installer.vdproj", "{B2D79700-D2CD-3949-234B-BCC1E53625F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -12,8 +14,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E7468D9E-5DC3-4BFA-972F-613A3B0D081D}.Debug|x64.ActiveCfg = Debug|x64
 		{E7468D9E-5DC3-4BFA-972F-613A3B0D081D}.Debug|x64.Build.0 = Debug|x64
-		{E7468D9E-5DC3-4BFA-972F-613A3B0D081D}.Release|x64.ActiveCfg = Debug|x64
-		{E7468D9E-5DC3-4BFA-972F-613A3B0D081D}.Release|x64.Build.0 = Debug|x64
+		{E7468D9E-5DC3-4BFA-972F-613A3B0D081D}.Release|x64.ActiveCfg = Release|x64
+		{E7468D9E-5DC3-4BFA-972F-613A3B0D081D}.Release|x64.Build.0 = Release|x64
+		{B2D79700-D2CD-3949-234B-BCC1E53625F9}.Debug|x64.ActiveCfg = Debug|x64
+		{B2D79700-D2CD-3949-234B-BCC1E53625F9}.Debug|x64.Build.0 = Debug|x64
+		{B2D79700-D2CD-3949-234B-BCC1E53625F9}.Release|x64.ActiveCfg = Release|x64
+		{B2D79700-D2CD-3949-234B-BCC1E53625F9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
