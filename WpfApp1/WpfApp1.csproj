@@ -12,9 +12,6 @@
     <ApplicationIcon>Assets\icon.ico</ApplicationIcon>
     <Platforms>AnyCPU;x64</Platforms>
     <Company>$(Authors)</Company>
-    <Product>$(AssemblyName)</Product>
-    <Authors>$(AssemblyName)</Authors>
-    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
