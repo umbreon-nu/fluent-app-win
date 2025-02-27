@@ -13,7 +13,6 @@
     <Platforms>AnyCPU;x64</Platforms>
     <Company>$(Authors)</Company>
     <Product>$(AssemblyName)</Product>
-    <PackageId>WpfApp1PackageId</PackageId>
     <Authors>$(AssemblyName)</Authors>
     <AssemblyName>$(MSBuildProjectName)</AssemblyName>
   </PropertyGroup>
