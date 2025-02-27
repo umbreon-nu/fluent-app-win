@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApp1.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Views"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <Grid Margin="40">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Margin="0,0,0,20">
+            <TextBlock Text="銘柄コード" FontWeight="Bold" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" />
+            <DockPanel>
+                <TextBox VerticalAlignment="Center" Width="160" />
+                <Button Content="検 索" Width="100" Height="32" HorizontalAlignment="Right" />
+            </DockPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Margin="0,0,0,20">
+            <TextBlock Text="銘柄名" FontWeight="Bold" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" />
+            <TextBlock Text="ここに銘柄名を表示する" VerticalAlignment="Center" HorizontalAlignment="Left" Width="320" />
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <TextBlock Text="株価" FontWeight="Bold" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" />
+            <TextBlock Text="ここに株価を表示する" VerticalAlignment="Center" HorizontalAlignment="Left" Width="320" />
+        </StackPanel>
+    </Grid>
+</Window>
