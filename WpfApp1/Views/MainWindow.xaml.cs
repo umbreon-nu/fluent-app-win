@@ -1,16 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+﻿using System.Windows;
+using AutoUpdaterDotNET;
 
 namespace WpfApp1.Views
 {
@@ -22,6 +11,14 @@ namespace WpfApp1.Views
         public MainWindow()
         {
             InitializeComponent();
+
+            Loaded += MainWindow_Loaded;
+        }
+
+        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            // FIXME: AutoUpdater.NETのサンプルなので、アップデートサーバーに配置したXMLを指定してください
+            AutoUpdater.Start("https://rbsoft.org/updates/AutoUpdaterTest.xml");
         }
     }
 }
